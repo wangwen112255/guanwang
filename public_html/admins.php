@@ -22,7 +22,7 @@ define('APP_PATH','../App/');
 define('RUNTIME_PATH','../Runtime/');
 define('THINK_PATH',realpath("../TP")."/");
 define("BIND_MODULE","Admin");
-define("BUILD_CONTROLLER_LIST","Index,Teacher,Student,Class");
+define("BUILD_CONTROLLER_LIST","Index,Teacher,Student,Class,Product");
 
 // 引入ThinkPHP入口文件
 require THINK_PATH.'ThinkPHP.php';

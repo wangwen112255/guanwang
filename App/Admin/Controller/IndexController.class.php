@@ -105,6 +105,8 @@ class IndexController extends BaseController {
         $this->display();
         }
     }
-    
+    public function index(){
+        $this->display();
+    }
 
 }

@@ -15,9 +15,9 @@ class LoginController extends Controller
     }
 
     public function doLogin(){
-        $username = I('username');
-        $password = I('password');
-        if(!$username || !$password){
+       /* $username = I('username');
+        $password = I('password');*/
+        /*if(!$username || !$password){
             $this->error('请输入用户名和密码');
         }
         $user = M('User');
@@ -33,8 +33,8 @@ class LoginController extends Controller
         $pass = encryPtion($password, $userData['md5code']);
         if($pass != $userData['password']){
             $this->error('密码错误！');
-        }
-        setUser($userData);
+        }*/
+        /*setUser($userData);*/
         $this->redirect('Index/index');
     }
 

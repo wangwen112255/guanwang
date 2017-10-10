@@ -4,27 +4,28 @@ use Think\Controller;
 class  DepartController extends BaseController {
     protected $dao;
     public function _initialize(){
-        parent::_initialize();
-    	 $this->dao=D('Depart');
+        // parent::_initialize();
+    	 // $this->dao=D('Depart');
     } 
     public function index(){
-           $Daodata=$this->dao->selectall();
-           // dump($Daodata);
-           $this->assign('codata',$Daodata['data']);
-           $this->assign('page',$Daodata['page']);
-           $this->display();
+           // $Daodata=$this->dao->selectall();
+           // // dump($Daodata);
+           // $this->assign('codata',$Daodata['data']);
+           // $this->assign('page',$Daodata['page']);
+           // $this->display();
 
      }
     
   
       public function create(){
-      if(!empty($_GET['cid'])&&isset($_GET['cid'])){
-          $Codata=$this->dao->find($_GET['cid']);
-          $this->assign("codata",$Codata);
-          $this->display();
-      }else{
-          $this->display();
-      }
+      // if(!empty($_GET['cid'])&&isset($_GET['cid'])){
+      //     $Codata=$this->dao->find($_GET['cid']);
+      //     $this->assign("codata",$Codata);
+      //     $this->display();
+      // }else{
+      //     $this->display();
+      // }
+        $this->display();
       }
 
 
@@ -119,8 +120,3 @@ class  DepartController extends BaseController {
 
 ?>
 
-
-<!-- 
-   
-
-     -->

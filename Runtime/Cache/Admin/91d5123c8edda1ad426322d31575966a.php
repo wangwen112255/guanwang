@@ -56,33 +56,45 @@
                         </div>
                     </li>
                   
-                   <li>
-                       <a href="/admin.php/Index/index"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
+                   <!-- <li>
+                       <a href="/admins.php/Index/index"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
                            主页
                        </span>
                        
-                   </li>
+                   </li> -->
                     <li>
-                        <a href="mailbox.html"><i class="fa fa-map"></i> <span  id='depart' class="nav-label">
-                            服务管理
+                    <li>
+                        <a href="mailbox.html"><i class="fa fa-home"></i> <span class="nav-label">
+                            案例管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Depart/create');?>">增加服务</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Product/add');?>">增加案例</a>
                             </li>
-                            <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Depart/index');?>">查看服务</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">查看案例</a>
                             </li>
                             </li>
                         </ul>
                     </li>
-                  
                     <li>
                         <a href="mailbox.html"><i class="fa fa-tasks"></i> <span class="nav-label">
                             案例管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Class/create');?>">增加案例</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Product/add');?>">增加案例</a>
                             </li>
-                            <li><a class="J_menuItem" href="<?php echo U('Class/index');?>">查看案例</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">查看案例</a>
+                            </li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="mailbox.html"><i class="fa fa-tasks"></i> <span class="nav-label">
+                            案例管理
+                        </span>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="<?php echo U('Product/add');?>">增加案例</a>
+                            </li>
+                            <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">查看案例</a>
                             </li>
                             </li>
                         </ul>
@@ -103,6 +115,8 @@
                         </span>
                         <ul class="nav nav-second-level">
                             <li><a class="J_menuItem" href="<?php echo U('Student/index');?>">发出招聘</a>
+                            </li>
+                            <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">查看招聘</a>
                             </li>
                             </li>
                         </ul>
