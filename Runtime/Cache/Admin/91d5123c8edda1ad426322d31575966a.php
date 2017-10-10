@@ -57,19 +57,19 @@
                     </li>
                   
                    <li>
-                       <a href="/admins.php/Index/index"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
+                       <a href="/admin.php/Index/index"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
                            主页
                        </span>
                        
                    </li>
                     <li>
                         <a href="mailbox.html"><i class="fa fa-map"></i> <span  id='depart' class="nav-label">
-                            院系管理
+                            服务管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Depart/create');?>">增加院系</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Depart/create');?>">增加服务</a>
                             </li>
-                            <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Depart/index');?>">查看院系</a>
+                            <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Depart/index');?>">查看服务</a>
                             </li>
                             </li>
                         </ul>
@@ -77,32 +77,32 @@
                   
                     <li>
                         <a href="mailbox.html"><i class="fa fa-tasks"></i> <span class="nav-label">
-                            专业管理
+                            案例管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Class/create');?>">增加专业</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Class/create');?>">增加案例</a>
                             </li>
-                            <li><a class="J_menuItem" href="<?php echo U('Class/index');?>">查看专业</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Class/index');?>">查看案例</a>
                             </li>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="mailbox.html"><i class="fa fa-child"></i> <span class="nav-label">
-                            教师管理
+                            定制管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Teacher/index');?>">查看教师</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Teacher/index');?>">查看定制</a>
                             </li>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="mailbox.html"><i class="fa fa-graduation-cap"></i> <span class="nav-label">
-                            学生管理
+                            招聘管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Student/index');?>">查看学生</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Student/index');?>">发出招聘</a>
                             </li>
                             </li>
                         </ul>
