@@ -68,6 +68,7 @@
                             案例管理
                         </span>
                         <ul class="nav nav-second-level">
+<<<<<<< HEAD
                             <li><a class="J_menuItem" href="<?php echo U('Product/add');?>">增加案例</a>
                             </li>
                             <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">查看案例</a>
@@ -83,6 +84,11 @@
                             <li><a class="J_menuItem" href="<?php echo U('Product/add');?>">增加案例</a>
                             </li>
                             <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">查看案例</a>
+=======
+                            <li><a class="J_menuItem" href="<?php echo U('Service/create');?>">增加服务</a>
+                            </li>
+                            <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Service/index');?>">查看服务</a>
+>>>>>>> 346b8b7b68038841e0ab7212ad51c13d84914fb3
                             </li>
                             </li>
                         </ul>
@@ -92,9 +98,15 @@
                             案例管理
                         </span>
                         <ul class="nav nav-second-level">
+<<<<<<< HEAD
                             <li><a class="J_menuItem" href="<?php echo U('Product/add');?>">增加案例</a>
                             </li>
                             <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">查看案例</a>
+=======
+                            <li><a class="J_menuItem" href="<?php echo U('Case/create');?>">增加案例</a>
+                            </li>
+                            <li><a class="J_menuItem" href="<?php echo U('Case/index');?>">查看案例</a>
+>>>>>>> 346b8b7b68038841e0ab7212ad51c13d84914fb3
                             </li>
                             </li>
                         </ul>
@@ -114,7 +126,7 @@
                             招聘管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Student/index');?>">发出招聘</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Build/index');?>Service</a>
                             </li>
                             <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">查看招聘</a>
                             </li>
