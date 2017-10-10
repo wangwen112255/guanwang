@@ -1,0 +1,242 @@
+ 	
+   /* 主色调 */
+ 	.bluetop{
+ 	 background:linear-gradient(to bottom,#0060B0,#2B91F7);
+	
+	}
+	.bluebottom:{
+	background:#0065B3 !important;
+	}
+	.bgblue{
+	background:#E9F0FD !important;
+	}
+	.darksblue{
+	background: #0660BA !important;
+	}
+	/* *{
+	  font-family: "微软雅黑"; ;
+	} */
+	.WU_header{
+	  width: 100%;
+	  background: #fee;
+	  height: 140px;
+
+	}
+	.WU_top{
+	  width: 100%;
+	  height: 40px;
+	  padding: 0px 5%;
+	  color: #fff;
+	  line-height: 40px;
+	  font-size: 16px;
+	  opacity: 0.9;
+
+	 }
+	 .WU_content{
+	  padding:20px 5%;
+	 }
+	 .relog a {
+	border-radius: 18px;
+	padding: 6px 22px;
+	
+	}
+	.WU-nav>li{
+	margin-right:30px ;
+	text-decoration: none;
+	font-size:16px ;
+	color: #000;
+	}
+	.WU-nav a{
+	font-size:18px ;
+	color: #000;
+  /* transition:background-color  linear 0.6s; */
+  transition:transform   linear 0.6s;
+	}
+/*   .WU-nav a:hover{
+  transform: rotateY(180deg);
+  } */
+ 
+	.WU-nav>li:hover{
+    border-bottom: 2px solid #999;
+    /* background: blue !important; */
+	}
+	.WU_footer{
+		width: 100%;
+		/* height: 100px; */
+		color: #fff;
+		background: #515151;
+	  }
+	 .text-center-footer>span{
+      display: inline-block;
+      margin-right: 5px;
+      font-size: 16px
+	 }
+   	.container{
+   	  width: 1300px !important;
+   	}
+   	.row{
+
+   	}
+   	.WU_infoheader{
+   	  display: inline-block;
+   	  padding-left:8px;
+   	  font-size:20px;
+   	  color:#999;
+   	  border-left:4px solid #1B71BA;
+   	}
+   	.WU_inforow{
+   	  padding-top:15px !important;
+   	  border-bottom:1px solid #4e2b2b !important;
+   	  padding-bottom: 10px !important ;
+   	}
+   	.WU_scrollinfo>.infotitle  span{
+   	  display: block;
+   	  width: 20%;
+   	  float: left;
+   	  line-height: 50px;
+   	  color: #fff;
+   	  text-align: center;
+   	  font-size: 18px;
+   	    background-color: #515151;
+   	     border-left: 2px solid #fff; 
+
+   	}
+   	.WU_scrollli >span{
+   	  display: block;
+   	  width: 20%;
+   	  float: left;
+   	  line-height: 40px;
+   	  height: 40px;
+   	  color: #999;
+   	  text-align: center;
+   	  font-size: 16px;
+   	   
+   	}
+   	.WU_scrollli{
+   	list-style:none;
+   	height:40px;
+   	margin-left:-40px;
+   	border-bottom: 1px solid #ccc;
+
+   	}
+   	.showdetail{
+    border:1px solid #000;
+    padding:4px 15%;
+    font-size: 16px;
+    color: #3688ff;
+   }
+   .WU_scrollli:hover {
+     background: #ccc;
+     opacity: 0.9
+   } 
+   .WU_more{
+   font-size: 18px;
+   padding-right: 5px;
+   color: #515151;
+
+
+  }
+  .WU_more:hover{
+   background: #ccc;
+   border-radius: 10px
+  }
+  .WU_login_img{
+	width:60px;
+	height:60px;
+	border:2px solid #fff;
+  }
+  .dropdown-menu_list{
+    left:0px !important;
+    min-width:1px !important;
+    border-radius: 0px !important;
+    }
+   .WU_carousel_dotted{
+      width:20px !important;
+      height:20px !important;
+      border-radius: 10px !important;
+   }
+    h4{
+  color:#515151;
+  }
+   .WU_personal >li>a{
+      text-decoration: none;
+      color: #000;
+  }
+  
+  .WU_personal li:hover{
+      background: #F3F3F3;
+
+  }
+  .WU_scrollli {
+    border-bottom: 1px dashed #ccc !important; 
+  } 
+  
+  .WU_scrollinfo > .infotitle span:hover{
+  opacity: 0.5;
+  }
+  .WU_personal{
+    padding-left: 12px;
+  }
+  
+  .WU_personal li{
+    list-style: none;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    padding-left:10px ;
+    font-size: 16px;
+  
+  }
+  .WU_search{
+    font-size:12px;
+    position:absolute;
+    z-index:8000;
+    top:8px;
+    left:80px;
+  }
+  .WU_search_submit{
+   position: absolute;
+   left:0px;width:50px;
+   opacity: 0;
+   height:40px;top:0px 
+  }
+  body{
+  	overflow-x: hidden;
+  }
+    .thumbnail{
+      position: relative;
+      overflow: hidden;
+      transition: transform linear 0.4s;
+    }
+    .thumbnail:hover  .WU_slidep{
+    bottom: 40%;
+
+    }
+    .thumbnail:hover {
+    transform: scale(1.1,1.2);
+    box-shadow: 2px 2px 2px #eeee;
+    }
+    .WU_slidep{
+      width: 100%;
+      background: blue;
+      position: absolute;
+      left: 0px;
+      bottom: 100%;
+      background: #515151;
+      opacity: 0.6;
+      height: 100%;
+      transition: bottom linear 0.2s;
+    }
+    .WU_leiji{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+
+
+    }
+    .layui-layer-setwin .layui-layer-close1 {
+        display: none !important;
+    }
+    .detailpanel{
+      color: #000;
+    }
