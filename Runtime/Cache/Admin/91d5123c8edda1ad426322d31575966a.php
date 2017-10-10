@@ -67,9 +67,9 @@
                             服务管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Depart/create');?>">增加服务</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Service/create');?>">增加服务</a>
                             </li>
-                            <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Depart/index');?>">查看服务</a>
+                            <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Service/index');?>">查看服务</a>
                             </li>
                             </li>
                         </ul>
@@ -80,9 +80,9 @@
                             案例管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Class/create');?>">增加案例</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Case/create');?>">增加案例</a>
                             </li>
-                            <li><a class="J_menuItem" href="<?php echo U('Class/index');?>">查看案例</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Case/index');?>">查看案例</a>
                             </li>
                             </li>
                         </ul>
@@ -102,7 +102,7 @@
                             招聘管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Student/index');?>">发出招聘</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Build/index');?>Service</a>
                             </li>
                             </li>
                         </ul>

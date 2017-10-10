@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="renderer" content="webkit">
-    <title>毕业设计后台管理系统</title>
+    <title>官网后台管理系统</title>
 
     <!-- CSS文件 -->
    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
