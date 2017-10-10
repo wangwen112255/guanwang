@@ -133,10 +133,10 @@
          </header>
          <!-- Header End --> 
          <!-- Content Start -->
-         <div class="main">
+      
             
             
-         </div>
+         
          <!-- Content End -->
          <!-- Footer Start -->
          <footer id="footer">
