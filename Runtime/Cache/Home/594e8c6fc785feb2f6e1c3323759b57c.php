@@ -12,6 +12,7 @@
       <!-- Google Fonts -->
      
       <!-- Library CSS -->
+      <link rel="stylesheet" type="text/css" href="/tepstatic/css/style.css">
       <link rel="stylesheet" href="/homestatic/css/bootstrap.css">
       <link rel="stylesheet" href="/homestatic/css/fonts/font-awesome/css/font-awesome.css">
       <link rel="stylesheet" href="/homestatic/css/animations.css" media="screen">
@@ -31,14 +32,14 @@
       <link rel="shortcut icon" href="/homestatic/img/ico/favicon.ico">
       
       
-      
    </head>
    <body class="home">
       <div class="wrap">
          <!-- Header Start -->
          <header id="header">
+
             <!-- Header Top Bar Start -->
-            <div class="top-bar">
+            <div class="top-bar" >
                <div class="slidedown collapse">
                   <div class="container">
                      <div class="phone-email pull-left">
@@ -48,18 +49,35 @@
                        
                      </div>
                      <div class="pull-right">
-                        <ul class="social pull-left">
-                           <li class="facebook"><a href="#"><i class="icon-facebook">友</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">情</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">链</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">接</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">图</i></a></li>
+                        <ul class="social pull-left" style="padding-top: 8px">
+                           <li class="facebook" style="position: relative;">
+                           <!-- <a href="#"><i class="icon-facebook">友</i></a> -->
+                            <a class="sfocus" href="javascript:void(0);">微</a>
+                            <div class="sqrcode_wrap">
+                                    <a class="sqrcode" href="javascript:void(0);">
+                                        <img src="/tepstatic/images/201474111670.png" title="扫一扫" alt="扫一扫" /></a> 
+                                    <a  class="slink" style="color:#0990e2" 
+                                    href="javascript:void(0);">微信公众号 
+                                    </a>
+                            </div>
+                           </li>
+                           <li class="facebook" style="position: relative;">
+                           <!-- <a href="#"><i class="icon-facebook">友</i></a> -->
+                            <a class="sfocus" href="javascript:void(0);">微</a>
+                            <div class="sqrcode_wrap">
+                                    <a class="sqrcode" href="javascript:void(0);">
+                                        <img src="/tepstatic/images/201474111670.png" title="扫一扫" alt="扫一扫" /></a> 
+                                    <a  class="slink" style="color:#0990e2" 
+                                    href="javascript:void(0);">新浪微博
+                                    </a>
+                            </div>
+                           </li>
                         </ul>
-                        <div id="search-form" class="pull-right">
+                     <!--    <div id="search-form" class="pull-right">
                            <form action="#" method="get">
                               <input type="text" class="search-text-box">
                            </form>
-                        </div>
+                        </div> -->
                      </div>
                   </div>
                </div>
@@ -116,7 +134,7 @@
                         </li>
                         <li>
                            <a <?php if((CONTROLLER_NAME) == "Recruit"): ?>id='current'<?php endif; ?>  href="<?php echo U('Recruit/index');?>" class="sf-with-ul">
-                           诚聘英才 
+                           企业资讯 
                            </a>
                         </li>
                          <li>
@@ -133,10 +151,103 @@
          </header>
          <!-- Header End --> 
          <!-- Content Start -->
-         <div class="main">
+      
             
-            
-         </div>
+<div class="catBody">
+    <div id="catTab" class="catTab">
+        <a class="curr catLabel" href="javascript:void(0);">联系方式</a> <a class="catLabel"
+            href="javascript:void(0);">诚聘英才</a> <a class="catLabel" href="javascript:void(0);">新浪微博</a>
+    </div>
+    <ul id="catQuery" class="catQuery">
+        <li class="catCon catContact">
+            <div class="catConTop">
+                <div class="catContl">
+                    <h2 class="catctlTitle">
+                        河南亿欣通网络科技有限公司</h2>
+                    <div class="catctlCon">
+                        <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
+                            手机：132-9831-0589</span><br />
+                        <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
+                            Q Q：171997274</span><br />
+                      	 <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
+                      	    邮 箱：1205483453@qq.com</span><br />                   
+                        <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
+                            网址：</span><a href="http://www.99it.cn" target="_blank">http://www.echainto.com</a><br />
+                        <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
+                            地址：河南省郑州市郑东新区金水路与东风路绿地原盛国际2</span><br />
+                        <span id="qqLoginBtn"></span>
+                    </div>
+                </div>
+                <ul id="catContr" class="catContr">
+                    <li class="catQrcode"><a class="curr catqTab catqTabwx" href="javascript:void(0);">微信</a>
+                        <div class="catqc">
+                            <img src="templets/images/201474111666.png" title="扫一扫" alt="扫一扫" /></div>
+                    </li>
+                    <li class="catQrcode"><a class="catqTab catqTabwb" href="javascript:void(0);">新浪微博</a>
+                        <div class="catqc">
+                            <img src="templets/images/201474111670.png" title="扫一扫" alt="扫一扫" /></div>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+        <li class="catCon catWork">
+            <div id="UpdatePanel1">
+                <div class="catwHead">
+                    <span class="catwTitle">需求留言</span>（提交您的业务需求，我们的客户经理将及时与您取得联系）</div>
+                <span class='catwTip'></span>
+                <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+                <input type="hidden" name="action" value="post" />
+                <input type="hidden" name="diyid" value="1" />
+                <input type="hidden" name="do" value="2" />
+                <div class="catwInput">
+                    <input name="comname" type="text" id="comname" value='公司名称：' />
+                    <input name="tel" type="text" id="tel" value='电话：' />
+                </div>
+                <div class="catwInput">
+                    <input name="name" type="text" id="name" value='姓名：' />
+                    <input name="email" type="text" id="email" value='ＱＱ：' />
+                </div>
+                <div class="catwText">
+                    <textarea name='mesinfo' id='mesinfo' value='内容：'></textarea></div>
+                <input type="text" class="entry ent-2 w-156 " style="width: 80px; text-transform: uppercase;"
+                    id="vdcode" name="vdcode" class="code" />
+                <img id="vdimgck" align="absmiddle" onclick="this.src=this.src+'?'" style="cursor: pointer;"
+                    alt="看不清？点击更换" src="templets/images/dimgck.php" />
+                看不清？ <a href="javascript:void(0)" onclick="changeAuthCode();">点击更换</a>
+                <script type="text/javascript">
+                    $ = jQuery;
+                    function changeAuthCode() {
+                        var num = new Date().getTime();
+                        var rand = Math.round(Math.random() * 10000);
+                        num = num + rand;
+                        $('#ver_code').css('visibility', 'visible');
+                        if ($("#vdimgck")[0]) {
+                            $("#vdimgck")[0].src = "../include/vdimgck.php?tag=" + num;
+                        }
+                        return false;
+                    }  
+                </script>
+                <div id="catwBtn" class="catwBtn">
+                    <span class="catwSubmit">
+                        <input type="hidden" name="dede_fields" value="comname,text;name,text;email,text;mesinfo,multitext;tel,text" />
+                        <input type="hidden" name="dede_fieldshash" value="47ab12d5b4395dee81fc86c971b4b051" />
+                        <input type="submit" name="submit" value="提 交" class='catwBtnHover' />
+                    </span>
+                </form>
+                <br />
+                <span class='catwTip'>( 我们将会在1个工作日内给您回复，资料会保密处理！)</span>
+            </div>
+        </li>
+        <li class="catCon">
+            <div id="UpdatePanel1">
+               <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=5370511811&verifier=29b59629&dpc=1"></iframe>
+            </div>
+        </li>
+    </ul>
+</div>
+
+         
          <!-- Content End -->
          <!-- Footer Start -->
          <footer id="footer">
@@ -186,14 +297,7 @@
                            </li>
                         </ul>
                      </section>
-                     <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-four">
-                        <h3></h3>
-                        <ul id="flickrfeed" class="thumbs"></ul>
-                     </section>
-                     <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-four">
-                        <h3>1234565</h3>
-                        <ul id="flickrfeed" class="thumbs"></ul>
-                     </section>
+                  
                   </div>
                </div>
             </div>
@@ -225,6 +329,15 @@
            <h3></h3>
         </div>
      </section>
+      <div id="backTop" class="backTop">
+        <a class="btqrShow" style="background-image: none; text-align: center; color: #fff;
+            font-size: 18px; line-height: 66px; text-decoration: none;" href="tencent://message/?uin=1028112958">
+            客服</a>
+        <div id="btqrImg" class="btqrImg">
+            <img src="templets/images/qr_code_02.png" alt="返回顶部" title="返回顶部"></div>
+        <a id="btqrShow" class="btqrShow" href="javascript:void(0);"></a><a id="btBtn" class="btBtn"
+            href="javascript:void(0);"></a>
+    </div>
       <!-- The Scripts -->
       <script src="/homestatic/js/jquery.min.js"></script>
       <script src="/homestatic/js/bootstrap.js"></script>
@@ -245,7 +358,18 @@
       <script src="/homestatic/js/spectrum.js"></script>
       <script src="/homestatic/js/switcher.js"></script>
       <script src="/homestatic/js/custom.js"></script>
-      
+      <script type="text/javascript" src="/tepstatic/js/TweenMax.min.js"></script>
+      <script type="text/javascript" src="/tepstatic/js/page.js"></script>
+      <script type="text/javascript">
+        $(function(){
+          $(".facebook").mouseover(function(){
+            $(this).find('div').show();
+          });
+           $(".facebook").mouseleave(function(){
+            $(this).find('div').hide();
+          })
+        })
+      </script>
       
   
   </body>

@@ -1,10 +1,11 @@
 body {
     color: #727272;
-    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    /* font-family: "Open Sans",Helvetica,Arial,sans-serif; */
+    font-family:"Microsoft Yahei";
     font-size: 14px;
     line-height: 24px;
 }
-
+/* body{font-size:12px;} */
 body.boxed header {
     width: 100%;
 }
@@ -110,7 +111,7 @@ header .top-bar {
     min-height: 30px;
     background: url(../img/top_bg.png) top repeat;
 	border-bottom: 1px solid #414f5a;
-    padding: 7px 0;
+    /* padding: 7px 0; */
 }
 
 .topnav .navbar-toggle i {
@@ -118,7 +119,7 @@ header .top-bar {
 }
 
 .phone-email {
-    padding: 3px 0;
+    padding: 10px 0;
 }
 
 .phone-email a {
@@ -147,13 +148,13 @@ footer .social li:last-child,footer .social {
 }
 
 header .social li,footer .social li {
-    background-color: #FFF;
+    background-color: #0990E2 !important;
     border-radius: 100% 100% 100% 100%;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6);
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6);
     display: inline-block;
     height: 25px;
-    margin-right: 5px;
+    margin-right: 20px;
     width: 25px;
     text-align: center;
     background: #fff;

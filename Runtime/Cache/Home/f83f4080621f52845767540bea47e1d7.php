@@ -12,6 +12,7 @@
       <!-- Google Fonts -->
      
       <!-- Library CSS -->
+      <link rel="stylesheet" type="text/css" href="/tepstatic/css/style.css">
       <link rel="stylesheet" href="/homestatic/css/bootstrap.css">
       <link rel="stylesheet" href="/homestatic/css/fonts/font-awesome/css/font-awesome.css">
       <link rel="stylesheet" href="/homestatic/css/animations.css" media="screen">
@@ -30,15 +31,16 @@
       <!-- Favicons -->
       <link rel="shortcut icon" href="/homestatic/img/ico/favicon.ico">
       
-      
+
       
    </head>
    <body class="home">
       <div class="wrap">
          <!-- Header Start -->
          <header id="header">
+
             <!-- Header Top Bar Start -->
-            <div class="top-bar">
+            <div class="top-bar" >
                <div class="slidedown collapse">
                   <div class="container">
                      <div class="phone-email pull-left">
@@ -48,18 +50,35 @@
                        
                      </div>
                      <div class="pull-right">
-                        <ul class="social pull-left">
-                           <li class="facebook"><a href="#"><i class="icon-facebook">友</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">情</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">链</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">接</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">图</i></a></li>
+                        <ul class="social pull-left" style="padding-top: 8px">
+                           <li class="facebook" style="position: relative;">
+                           <!-- <a href="#"><i class="icon-facebook">友</i></a> -->
+                            <a class="sfocus" href="javascript:void(0);">微</a>
+                            <div class="sqrcode_wrap">
+                                    <a class="sqrcode" href="javascript:void(0);">
+                                        <img src="/tepstatic/images/201474111670.png" title="扫一扫" alt="扫一扫" /></a> 
+                                    <a  class="slink" style="color:#0990e2" 
+                                    href="javascript:void(0);">微信公众号 
+                                    </a>
+                            </div>
+                           </li>
+                           <li class="facebook" style="position: relative;">
+                           <!-- <a href="#"><i class="icon-facebook">友</i></a> -->
+                            <a class="sfocus" href="javascript:void(0);">微</a>
+                            <div class="sqrcode_wrap">
+                                    <a class="sqrcode" href="javascript:void(0);">
+                                        <img src="/tepstatic/images/201474111670.png" title="扫一扫" alt="扫一扫" /></a> 
+                                    <a  class="slink" style="color:#0990e2" 
+                                    href="javascript:void(0);">新浪微博
+                                    </a>
+                            </div>
+                           </li>
                         </ul>
-                        <div id="search-form" class="pull-right">
+                     <!--    <div id="search-form" class="pull-right">
                            <form action="#" method="get">
                               <input type="text" class="search-text-box">
                            </form>
-                        </div>
+                        </div> -->
                      </div>
                   </div>
                </div>
@@ -116,7 +135,7 @@
                         </li>
                         <li>
                            <a <?php if((CONTROLLER_NAME) == "Recruit"): ?>id='current'<?php endif; ?>  href="<?php echo U('Recruit/index');?>" class="sf-with-ul">
-                           诚聘英才 
+                           企业资讯 
                            </a>
                         </li>
                          <li>
@@ -135,7 +154,171 @@
          <!-- Content Start -->
       
             
-            
+  <div id="main">
+         
+            <div class="content">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div id="options">
+                           <ul id="filters" class="option-set clearfix" data-option-key="filter">
+                              <li><a href="#filter" data-option-value="*" class="selected">All</a></li>
+                              <li><a href="#filter" data-option-value=".web">HTML</a></li>
+                              <li><a href="#filter" data-option-value=".wp">Wordpress</a></li>
+                              <li><a href="#filter" data-option-value=".css">CSS</a></li>
+                              <li><a href="#filter" data-option-value=".jquery">jQuery</a></li>
+                              <li><a href="#filter" data-option-value=".php">PHP</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="clearfix"></div>
+                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                           <div class="portfolio three-column">
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 web jquery item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-1.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-1.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Design Team</a>
+                                       <p>
+                                          Design / Development
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wp css item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-2.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-2.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Super Boy</a>
+                                       <p>
+                                          Fashion / Style
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 php jquery wp item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-3.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-3.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Lady Shop</a>
+                                       <p>
+                                          Business / Ecommerce
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wp jquery css item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-4.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-4.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Office Workers</a>
+                                       <p>
+                                          Design / Development
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 web css wp item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-5.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-5.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Idea Guy</a>
+                                       <p>
+                                          Idea / Development
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 web php item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-8.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-8.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Hair Style</a>
+                                       <p>
+                                          Life / Work
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wp css item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-7.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-7.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Insurance Guy</a>
+                                       <p>
+                                          Life / Finance
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 web jquery item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-9.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-9.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Camera Support</a>
+                                       <p>
+                                          Support / Communication
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 css php wp item">
+                                 <div class="portfolio-item">
+                                    <a href="img/portfolio/portfolio-10.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-10.jpg" alt=" "/>
+                                    </a>
+                                    <div class="portfolio-item-title">
+                                       <a href="single-project.html">Insta Genious</a>
+                                       <p>
+                                          App / Photo
+                                       </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Main Content end-->
+         </div>
+
          
          <!-- Content End -->
          <!-- Footer Start -->
@@ -186,14 +369,7 @@
                            </li>
                         </ul>
                      </section>
-                     <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-four">
-                        <h3></h3>
-                        <ul id="flickrfeed" class="thumbs"></ul>
-                     </section>
-                     <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-four">
-                        <h3>1234565</h3>
-                        <ul id="flickrfeed" class="thumbs"></ul>
-                     </section>
+                  
                   </div>
                </div>
             </div>
@@ -225,6 +401,15 @@
            <h3></h3>
         </div>
      </section>
+      <div id="backTop" class="backTop">
+        <a class="btqrShow" style="background-image: none; text-align: center; color: #fff;
+            font-size: 18px; line-height: 66px; text-decoration: none;" href="tencent://message/?uin=1028112958">
+            客服</a>
+        <div id="btqrImg" class="btqrImg">
+            <img src="templets/images/qr_code_02.png" alt="返回顶部" title="返回顶部"></div>
+        <a id="btqrShow" class="btqrShow" href="javascript:void(0);"></a><a id="btBtn" class="btBtn"
+            href="javascript:void(0);"></a>
+    </div>
       <!-- The Scripts -->
       <script src="/homestatic/js/jquery.min.js"></script>
       <script src="/homestatic/js/bootstrap.js"></script>
@@ -245,8 +430,23 @@
       <script src="/homestatic/js/spectrum.js"></script>
       <script src="/homestatic/js/switcher.js"></script>
       <script src="/homestatic/js/custom.js"></script>
-      
-      
+      <script type="text/javascript" src="/tepstatic/js/TweenMax.min.js"></script>
+      <script type="text/javascript" src="/tepstatic/js/page.js"></script>
+      <script type="text/javascript">
+        $(function(){
+          $(".facebook").mouseover(function(){
+            $(this).find('div').show();
+          });
+           $(".facebook").mouseleave(function(){
+            $(this).find('div').hide();
+          })
+        })
+      </script>
+       
+   <script src="/homestatic/js/spectrum.js"></script>
+      <script src="/homestatic/js/jquery.isotope.js"></script>
+      <script src="/homestatic/js/portfolio.js"></script>
+
   
   </body>
 </html>

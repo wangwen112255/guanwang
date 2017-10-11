@@ -12,6 +12,7 @@
       <!-- Google Fonts -->
      
       <!-- Library CSS -->
+      <link rel="stylesheet" type="text/css" href="/tepstatic/css/style.css">
       <link rel="stylesheet" href="/homestatic/css/bootstrap.css">
       <link rel="stylesheet" href="/homestatic/css/fonts/font-awesome/css/font-awesome.css">
       <link rel="stylesheet" href="/homestatic/css/animations.css" media="screen">
@@ -37,8 +38,9 @@
       <div class="wrap">
          <!-- Header Start -->
          <header id="header">
+
             <!-- Header Top Bar Start -->
-            <div class="top-bar">
+            <div class="top-bar" >
                <div class="slidedown collapse">
                   <div class="container">
                      <div class="phone-email pull-left">
@@ -48,18 +50,35 @@
                        
                      </div>
                      <div class="pull-right">
-                        <ul class="social pull-left">
-                           <li class="facebook"><a href="#"><i class="icon-facebook">友</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">情</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">链</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">接</i></a></li>
-                           <li class="facebook"><a href="#"><i class="icon-facebook">图</i></a></li>
+                        <ul class="social pull-left" style="padding-top: 8px">
+                           <li class="facebook" style="position: relative;">
+                           <!-- <a href="#"><i class="icon-facebook">友</i></a> -->
+                            <a class="sfocus" href="javascript:void(0);">微</a>
+                            <div class="sqrcode_wrap">
+                                    <a class="sqrcode" href="javascript:void(0);">
+                                        <img src="/tepstatic/images/201474111670.png" title="扫一扫" alt="扫一扫" /></a> 
+                                    <a  class="slink" style="color:#0990e2" 
+                                    href="javascript:void(0);">微信公众号 
+                                    </a>
+                            </div>
+                           </li>
+                           <li class="facebook" style="position: relative;">
+                           <!-- <a href="#"><i class="icon-facebook">友</i></a> -->
+                            <a class="sfocus" href="javascript:void(0);">微</a>
+                            <div class="sqrcode_wrap">
+                                    <a class="sqrcode" href="javascript:void(0);">
+                                        <img src="/tepstatic/images/201474111670.png" title="扫一扫" alt="扫一扫" /></a> 
+                                    <a  class="slink" style="color:#0990e2" 
+                                    href="javascript:void(0);">新浪微博
+                                    </a>
+                            </div>
+                           </li>
                         </ul>
-                        <div id="search-form" class="pull-right">
+                     <!--    <div id="search-form" class="pull-right">
                            <form action="#" method="get">
                               <input type="text" class="search-text-box">
                            </form>
-                        </div>
+                        </div> -->
                      </div>
                   </div>
                </div>
@@ -534,258 +553,187 @@
              <!-- Recent works start-->
             <div class="recentworks bottom-pad">
                <div class="container">
-                  <div class="row">
-                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 animate_afl d1">
-                        <div class="portfolio-desc">
-                           <h3 class="title">团队介绍</h3>
-                           <p>There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even highly believable. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                           <div class="carousel-controls">
-                              <a class="prev" href="#portfolio-carousel" data-slide="prev"><i class="icon-angle-left"></i></a>
-                              <a class="next" href="#portfolio-carousel" data-slide="next"><i class="icon-angle-right"></i></a>
-                              <div class="clearfix"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-9 col-md-9 col-xs-12">
-                        <div class="row">
-                           <div id="portfolio-carousel" class="portfolio-carousel slide">
-                              <div class="carousel-inner">
-                                 <div class="item active">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d2">
-                                       <div class="portfolio-item">
-                                          <a href="/homestatic/img/portfolio/portfolio-1.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
-                                          <span class="portfolio-item-hover"></span>
-                                          <span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-1.jpg" alt=" "/>
-                                          </a>
-                                          <div class="portfolio-item-title">
-                                             <a href="single-project.html">Insta Genius</a>
-                                             <p>
-                                                Design / Development
-                                             </p>
+                <div class="iaAndn">
+                     <div class="row">
+                      <div id="iabout" class="iabout  col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                          <div class="iaHeader">
+                              <a class="iaPrev" href="javascript:void(0);" title="上一个"></a><a class="iaNext" href="javascript:void(0);"
+                                  title="下一个"></a>
+                          </div>
+                          <ul class="iaQuery">
+                              <li class="iaList">
+                                  <div class="iaName">
+                                      <span class="iaNameEn">ABOUT US</span><span class="iaNameCn">企业概况</span></div>
+                                  <div class="iaBody">
+                                      <div class="iaPic">
+                                          <a href="/abouts/">
+                                              <img src="templets/images/124226034_461n.jpg" /></a> <span class="iaPicMask">
+                                          </span><span class="iaPicName">简介</span>
+                                      </div>
+                                      <div class="iaIntro">
+                                          <h4 class="iaTitle">
+                                              企业发展之路</h4>
+                                          <div class="iaContent">
+                                              专门致力于企业网站建设、高端品牌形象设计、交互设计、视觉设计于一体的专业用户体验的互联网服务。互联网是当今不可或缺的沟通方式，越来越多的人通过网络搜寻...
                                           </div>
-                                          <div class="clearfix"></div>
-                                       </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d3">
-                                       <div class="portfolio-item">
-                                          <a href="img/portfolio/portfolio-2.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
-                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-2.jpg" alt=" "/>
-                                          </a>
-                                          <div class="portfolio-item-title">
-                                             <a href="single-project.html">YA Sound</a>
-                                             <p>
-                                                Sound / Audio
-                                             </p>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="iaList">
+                                  <div class="iaName">
+                                      <span class="iaNameEn">团队介绍</span><span class="iaNameCn">企业概况</span></div>
+                                  <div class="iaBody">
+                                      <div class="iaPic">
+                                          <a href="/abouts/">
+                                              <img src="templets/images/124226034_461n.jpg" /></a> <span class="iaPicMask">
+                                          </span><span class="iaPicName">团队</span>
+                                      </div>
+                                      <div class="iaIntro">
+                                          <h4 class="iaTitle">
+                                              探长网络 —— 理念</h4>
+                                          <div class="iaContent">
+                                              重庆探长网络科技以良好的商业信誉，完善的服务及深厚的技术力量，以客户服务为中心，专业为客户量身打造客户喜欢的网站平台。客户满意度是我们永恒的追求。我们通过敏锐...
                                           </div>
-                                          <div class="clearfix"></div>
-                                       </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d4">
-                                       <div class="portfolio-item">
-                                          <a href="img/portfolio/portfolio-3.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
-                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-3.jpg" alt=" "/>
-                                          </a>
-                                          <div class="portfolio-item-title">
-                                             <a href="single-project.html">Nike Shoe</a>
-                                             <p>
-                                                Apareal / Shoe
-                                             </p>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="iaList">
+                                  <div class="iaName">
+                                      <span class="iaNameEn">ABOUT US</span><span class="iaNameCn">企业概况</span></div>
+                                  <div class="iaBody">
+                                      <div class="iaPic">
+                                          <a href="/abouts/">
+                                              <img src="templets/images/124226034_461n.jpg" /></a> <span class="iaPicMask">
+                                          </span><span class="iaPicName">创业之路</span>
+                                      </div>
+                                      <div class="iaIntro">
+                                          <h4 class="iaTitle">
+                                              探长网络科技 —— 文化</h4>
+                                          <div class="iaContent">
+                                              专门致力于企业网站建设、高端品牌形象设计、交互设计、视觉设计于一体的专业用户体验的互联网服务。互联网是当今不可或缺的沟通方式，越来越多的人通过网络搜寻...
                                           </div>
-                                          <div class="clearfix"></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="item">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
-                                       <div class="portfolio-item">
-                                          <a href="img/portfolio/portfolio-4.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
-                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-4.jpg" alt=" "/>
-                                          </a>
-                                          <div class="portfolio-item-title">
-                                             <a href="single-project.html">Camera Icon</a>
-                                             <p>
-                                                Icon / Device
-                                             </p>
-                                          </div>
-                                          <div class="clearfix"></div>
-                                       </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
-                                       <div class="portfolio-item">
-                                          <a href="img/portfolio/portfolio-5.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
-                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-5.jpg" alt=" "/>
-                                          </a>
-                                          <div class="portfolio-item-title">
-                                             <a href="single-project.html">Penguin</a>
-                                             <p>
-                                                Animal / Nature
-                                             </p>
-                                          </div>
-                                          <div class="clearfix"></div>
-                                       </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
-                                       <div class="portfolio-item">
-                                          <a href="images/portfolio/portfolio-6.html" class="portfolio-item-link" data-rel="prettyPhoto" >
-                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-6.jpg" alt=" "/>
-                                          </a>
-                                          <div class="portfolio-item-title">
-                                             <a href="single-project.html">Sound Box</a>
-                                             <p>
-                                                Audio / Sound
-                                             </p>
-                                          </div>
-                                          <div class="clearfix"></div>
-                                       </div>
-                                    </div>
-                                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
-                                       <div class="portfolio-item">
-                                          <a href="images/portfolio/portfolio-6.html" class="portfolio-item-link" data-rel="prettyPhoto" >
-                                          <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="icon-search"></i></span><img src="img/portfolio/portfolio-6.jpg" alt=" "/>
-                                          </a>
-                                          <div class="portfolio-item-title">
-                                             <a href="single-project.html">Sound Box</a>
-                                             <p>
-                                                Audio / Sound
-                                             </p>
-                                          </div>
-                                          <div class="clearfix"></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="clearfix"></div>
-                        </div>
-                     </div>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+                          <div class="iaCtrl">
+                          </div>
+                      </div>
+                      <div id="iNews" class="iNews col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                          <div class="inHeader">
+                              <a class="inMore" href="/news/">更多</a> <a class="inNext" href="javascript:void(0);"
+                                  title="下一页"></a><a class="inPrev" href="javascript:void(0);" title="上一页"></a>
+                              <span class="inNameEn">NEWS</span> <span class="inNameCn">探长网络动态</span>
+                          </div>
+                          <div class="inQueryWrap">
+                              <ul class="inQuery">
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">10</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月10日</span> <a href="/news/hor/3580.html" target="_blank"
+                                          class="inTitle" title="高通820又跳票 魅族PRO 5性能强到无朋友">高通820又跳票 魅族PRO 5性能强到无朋友</a>
+                                      <div class="inIntro">
+                                          近日，手机芯片霸主之一的高通又传来跳票消息，其最新研发的骁龙820原定于今年年底出货，</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">09</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月09日</span> <a href="/news/hor/3579.html" target="_blank"
+                                          class="inTitle" title="科技史上最糟糕的5个浏览器，你觉得哪个">科技史上最糟糕的5个浏览器，你觉得哪个</a>
+                                      <div class="inIntro">
+                                          IE使用的网络化多媒体对象技术，一个漏洞百出的浏览器控件系统，极易受到攻击，直到今年，</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">09</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月09日</span> <a href="/news/hor/3578.html" target="_blank"
+                                          class="inTitle" title="钱多多：P2P监管并不是万能的！">钱多多：P2P监管并不是万能的！</a>
+                                      <div class="inIntro">
+                                          P2P网贷的监管时代呼之欲出。不管是行业内还是投资者，无不翘首以盼。许多投资人认为，只</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">09</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月09日</span> <a href="/news/hor/3577.html" target="_blank"
+                                          class="inTitle" title="苹果iOS9 Safari浏览器 广告屏蔽插件  那边">苹果iOS9 Safari浏览器 广告屏蔽插件 那边</a>
+                                      <div class="inIntro">
+                                          长假最后一夜，第四季 《中国好声音》 总决赛落幕，彻底被一个公司洗脑了，优信 二手车 。</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">09</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月09日</span> <a href="/news/hor/3576.html" target="_blank"
+                                          class="inTitle" title="屏蔽广告的，也开始照顾广告的感受了">屏蔽广告的，也开始照顾广告的感受了</a>
+                                      <div class="inIntro">
+                                          那边苹果刚刚开放了 iOS 9 中 Safari 浏览器的Content Blocking（内容屏蔽）接口给开发者，这厢一个</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">09</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月09日</span> <a href="/news/hor/3575.html" target="_blank"
+                                          class="inTitle" title="三星推“以旧换新”活动 iPhone 4S等机型可">三星推“以旧换新”活动 iPhone 4S等机型可</a>
+                                      <div class="inIntro">
+                                          站长之家（Chinaz.com）10月9日消息 近日，外媒消息称， 三星 首次开启了以旧换新活动，包括三</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">07</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月07日</span> <a href="/news/hor/3574.html" target="_blank"
+                                          class="inTitle" title="PornHub：人们越来越喜欢在手机上看小电影">PornHub：人们越来越喜欢在手机上看小电影</a>
+                                      <div class="inIntro">
+                                          新浪科技讯 北京时间10月4日下午消息，Juniper和PornHub近期进行了一项调查，研究了iOS和Android用</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">06</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月06日</span> <a href="/news/hor/3571.html" target="_blank"
+                                          class="inTitle" title="马云油画处女作《桃花源》拍出3600万">马云油画处女作《桃花源》拍出3600万</a>
+                                      <div class="inIntro">
+                                          在香港的苏富比拍卖会上， 马云和曾梵志合作的油画《桃花源》，以130万元港币起拍，经过</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">06</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月06日</span> <a href="/news/hor/3570.html" target="_blank"
+                                          class="inTitle" title="国平：将网络合作打造成中美关系新亮点">国平：将网络合作打造成中美关系新亮点</a>
+                                      <div class="inIntro">
+                                          将网络合作打造成中美关系新亮点 习近平主席访美并出席联合国系列活动成果评述四 作者：国</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">05</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月05日</span> <a href="/news/hor/3573.html" target="_blank"
+                                          class="inTitle" title="万能的苹果：库克要改变整个科技行业">万能的苹果：库克要改变整个科技行业</a>
+                                      <div class="inIntro">
+                                          你知道你现在是在一个企业软件公司举行的会议上的对吧？利维问 库克 ，你的公关团队和你说</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">05</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月05日</span> <a href="/news/hor/3572.html" target="_blank"
+                                          class="inTitle" title="北京摩托车“二环十三郎”遭严惩：已被">北京摩托车“二环十三郎”遭严惩：已被</a>
+                                      <div class="inIntro">
+                                          此前，一段名为北京二环13分钟跑完，最高时速237公里的视频在网络上热传。视频中一个摩托车</div>
+                                  </li>
+                                  <li class="inList">
+                                      <div class="inLableDate">
+                                          <span class="indDay">05</span><span class="indMonth">Oct.</span></div>
+                                      <span class="inDate">2015年10月05日</span> <a href="/news/hor/3569.html" target="_blank"
+                                          class="inTitle" title="万事达：三年时间消灭密码">万事达：三年时间消灭密码</a>
+                                      <div class="inIntro">
+                                          不管是社交还是购物，互联网给人们带来的便利是无与伦比的，但唯一美中不足的，就是需要</div>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                      </div>
                   </div>
+                  
                </div>
             </div>
             <!-- Recent work end-->
             <!-- Our Clients Start-->
-            <div class="our-clients">
-               <div class="container">
-                  <div class="row">
-                     <div class="client">
-                        <div class="client-logo">
-                           <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-                              <div class="clients-title">
-                                 <h3 class="title">联系客服</h3>
-                                 <div class="carousel-controls pull-right">
-                                    <a class="prev" href="#client-carousel" data-slide="prev"><i class="icon-angle-left"></i></a>
-                                    <a class="next" href="#client-carousel" data-slide="next"><i class="icon-angle-right"></i></a>
-                                    <div class="clearfix"></div>
-                                 </div>
-                              </div>
-                              <div class="clearfix"></div>
-                              <div class="row">
-                                 <div id="client-carousel" class="client-carousel slide">
-                                    <div class="carousel-inner">
-                                       <div class="item active">
-                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d1">
-                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-1.png"></a></div>
-                                          </div>
-                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d2">
-                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-2.png"></a></div>
-                                          </div>
-                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d3">
-                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-3.png"></a></div>
-                                          </div>
-                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d4">
-                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-4.png"></a></div>
-                                          </div>
-                                       </div>
-                                       <div class="item">
-                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
-                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-5.png"></a></div>
-                                          </div>
-                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
-                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-4.png"></a></div>
-                                          </div>
-                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
-                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-3.png"></a></div>
-                                          </div>
-                                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
-                                             <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-2.png"></a></div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                              <!-- Testimonials Widget Start -->
-                              <div class="row ">
-                                 <div class="testimonials widget">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                       <div class="testimonials-title">
-                                          <h3 class="title">Testimonials</h3>
-                                       </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div id="testimonials-carousel" class="testimonials-carousel slide animate_afr d5">
-                                       <div class="carousel-inner">
-                                          <div class="item active">
-                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <div class="testimonial item">
-                                                   <p>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                                                   </p>
-                                                   <div class="testimonials-arrow">
-                                                   </div>
-                                                   <div class="author">
-                                                      <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-1.jpg"></div>
-                                                      <div class="testimonial-author-info">
-                                                         <a href="#"><span class="color">Monica Sing</span></a> FIFO Themes
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="item">
-                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <div class="testimonial item">
-                                                   <p>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                                                   </p>
-                                                   <div class="testimonials-arrow">
-                                                   </div>
-                                                   <div class="author">
-                                                      <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-2.jpg"></div>
-                                                      <div class="testimonial-author-info">
-                                                         <a href="#"><span class="color">Monzurul Haque</span></a> FIFO Themes
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="item">
-                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <div class="testimonial item">
-                                                   <p>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                                                   </p>
-                                                   <div class="testimonials-arrow">
-                                                   </div>
-                                                   <div class="author">
-                                                      <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-3.jpg"></div>
-                                                      <div class="testimonial-author-info">
-                                                         <a href="#"><span class="color">Carol Johansen</span></a> FIFO Themes
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+            
             <!-- Our Clients End -->  
          </div>
 
@@ -878,6 +826,15 @@
            <h3></h3>
         </div>
      </section>
+      <div id="backTop" class="backTop">
+        <a class="btqrShow" style="background-image: none; text-align: center; color: #fff;
+            font-size: 18px; line-height: 66px; text-decoration: none;" href="tencent://message/?uin=1028112958">
+            客服</a>
+        <div id="btqrImg" class="btqrImg">
+            <img src="templets/images/qr_code_02.png" alt="返回顶部" title="返回顶部"></div>
+        <a id="btqrShow" class="btqrShow" href="javascript:void(0);"></a><a id="btBtn" class="btBtn"
+            href="javascript:void(0);"></a>
+    </div>
       <!-- The Scripts -->
       <script src="/homestatic/js/jquery.min.js"></script>
       <script src="/homestatic/js/bootstrap.js"></script>
@@ -898,6 +855,18 @@
       <script src="/homestatic/js/spectrum.js"></script>
       <script src="/homestatic/js/switcher.js"></script>
       <script src="/homestatic/js/custom.js"></script>
+      <script type="text/javascript" src="/tepstatic/js/TweenMax.min.js"></script>
+      <script type="text/javascript" src="/tepstatic/js/page.js"></script>
+      <script type="text/javascript">
+        $(function(){
+          $(".facebook").mouseover(function(){
+            $(this).find('div').show();
+          });
+           $(".facebook").mouseleave(function(){
+            $(this).find('div').hide();
+          })
+        })
+      </script>
       
 
   

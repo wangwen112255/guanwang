@@ -27,6 +27,9 @@ return array(
 		"__HOMEIMG__"=>"/homestatic/img/",
 		"__HOMEJS__"=>"/homestatic/js/",
 		"__HOMECSS__"=>"/homestatic/css/",
+		"__TEPCSS__"=>"/tepstatic/css/",
+		"__TEPIMG__"=>"/tepstatic/images/",
+		"__TEPJS__"=>"/tepstatic/js/",
 	),
 	// "TMPL_L_DELIM_"=>''  模板中的定界符的修改
 	// "TMPL_R_DELIM_"=>''
