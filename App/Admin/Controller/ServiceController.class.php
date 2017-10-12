@@ -2,11 +2,11 @@
 namespace Admin\Controller;
 use Think\Controller;
 class ServiceController extends BaseController {
-	   protected $dao;
+	   /*protected $dao;
     public function _initialize(){
         parent::_initialize();
          $this->dao=D('Class');
-    } 
+    } */
     public function index(){
            // $Daodata=$this->dao->selectall();
            // $this->assign('codata',$Daodata['data']);
@@ -17,7 +17,7 @@ class ServiceController extends BaseController {
     
   
       public function create(){
-      $De=D('Depart');
+      /*$De=D('Depart');
       $dedata=$De->selectall();
       $this->assign('dedata',$dedata['data']);
       $this->assign('page',$dedata['page']);
@@ -26,9 +26,9 @@ class ServiceController extends BaseController {
           $this->assign("codata",$Codata);
           $this->display();
       }else{
-          $this->assign('did',$_GET['did']);
+          $this->assign('did',$_GET['did']);*/
           $this->display();
-      }
+      /*}*/
       }
 
 

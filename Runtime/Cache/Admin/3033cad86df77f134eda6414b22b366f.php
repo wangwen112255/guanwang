@@ -72,8 +72,11 @@
           <tr>
               <th data-field="id" data-checkbox="true"></th>
               <th data-field="name">名称</th>
-              <th>学生人数</th>
+              <th>开发者</th>
               <!-- <th>教师人数</th> -->
+              <th>缩略图</th>
+              <th>网址</th>
+              <th>时间</th>
               <th>操作</th>
           </tr>
           </thead>
@@ -131,7 +134,7 @@
 <script type="text/javascript">
 function _del(obj){
   var oid=$(obj).prev().val();
-  _ajaxmodify({url:'/admin.php/Case/del',msg:'您确定要删除这个院系？',check:"确定",data:{id:oid}});
+  _ajaxmodify({url:'/admins.php/Case/del',msg:'您确定要删除这个院系？',check:"确定",data:{id:oid}});
 
 }
 </script>

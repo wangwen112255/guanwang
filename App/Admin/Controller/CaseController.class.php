@@ -1,31 +1,63 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class  DepartController extends BaseController {
+class  CaseController extends BaseController {
     protected $dao;
     public function _initialize(){
-        // parent::_initialize();
-    	 // $this->dao=D('Depart');
+         parent::_initialize();
+    	$this->dao=D('Case');
+         $this->daotype=D('Casetype');
     } 
     public function index(){
            // $Daodata=$this->dao->selectall();
            // // dump($Daodata);
            // $this->assign('codata',$Daodata['data']);
            // $this->assign('page',$Daodata['page']);
-           // $this->display();
+            $this->display();
 
      }
+
     
   
       public function create(){
-      // if(!empty($_GET['cid'])&&isset($_GET['cid'])){
-      //     $Codata=$this->dao->find($_GET['cid']);
-      //     $this->assign("codata",$Codata);
-      //     $this->display();
-      // }else{
-      //     $this->display();
-      // }
-        $this->display();
+        if(!empty($_POST)){
+            $case=M("case");
+            if($_FILES['pic']['error']<4){
+                //A. 处理上传的图片附件
+                $cfg = array(
+                    'rootPath'      =>  './public_html/zh_upload/case_img/', //保存根路径
+                );
+                $up = new \Think\Upload($cfg);
+                 //uploadOne()方法执行成功后会把附件(在服务器上)的名字和路径等相关信息给我们返回
+                 $z = $up ->uploadOne($_FILES['pic']);
+                 $pic = $up -> rootPath.$z['savepath'].$z['savename'];//图路径名
+                 $smallimg = $up -> rootPath.$z['savepath'].'small_'.$z['savename'];//小图路径名
+                 
+                 //B. 对上传好的图片制作缩略图
+                 //$im = new \Think\Image();  //实例化Image对象
+                 //$im -> open($bigimg);//打开被处理的图片
+                 //$im -> thumb(40,40);//制作缩略图(默认有等比例缩放效果)
+                 //$im -> save($smallimg);//保存缩略图到服务器*/
+                //把上传好的附件存储到数据库里边
+                $_POST['pic'] = ltrim($pic,'./');
+               //$_POST['small_img'] = ltrim($smallimg,'./');
+            }
+            $datee=$case->create();
+            
+            if ($z){
+                //$this->redirect([分组/控制器/操作方法]地址，参数，延迟时间，提示信息)
+                $this->redirect('index',array('name'=>'zhangyang','age'=>'23'),3,'添加案例成功');
+
+            }else{
+                $this->redirect('create',array('name'=>'zhangyang','age'=>'23'),3,'添加案例失败');
+
+            } 
+
+        }else{
+            $Typedata  = $this ->daotype->select(); 
+            $this->assign("Typedata",$Typedata);
+            $this->display();
+        }
       }
 
 
