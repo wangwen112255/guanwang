@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class RecruitController extends Controller {
+class NewsController extends Controller {
     public function _initalize(){
     	parent::initalize();
     	

@@ -31,6 +31,7 @@
       <!-- Favicons -->
       <link rel="shortcut icon" href="/homestatic/img/ico/favicon.ico">
       
+
       
    </head>
    <body class="home">
@@ -153,99 +154,149 @@
          <!-- Content Start -->
       
             
-<div class="catBody">
-    <div id="catTab" class="catTab">
-        <a class="curr catLabel" href="javascript:void(0);">联系方式</a> <a class="catLabel"
-            href="javascript:void(0);">诚聘英才</a> <a class="catLabel" href="javascript:void(0);">新浪微博</a>
-    </div>
-    <ul id="catQuery" class="catQuery">
-        <li class="catCon catContact">
-            <div class="catConTop">
-                <div class="catContl">
-                    <h2 class="catctlTitle">
-                        河南亿欣通网络科技有限公司</h2>
-                    <div class="catctlCon">
-                        <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
-                            手机：132-9831-0589</span><br />
-                        <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
-                            Q Q：171997274</span><br />
-                      	 <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
-                      	    邮 箱：1205483453@qq.com</span><br />                   
-                        <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
-                            网址：</span><a href="http://www.99it.cn" target="_blank">http://www.echainto.com</a><br />
-                        <span style="color: #484848; font-family: 'Microsoft Yahei'; line-height: 32px; background-color: #FFFFFF;">
-                            地址：河南省郑州市郑东新区金水路与东风路绿地原盛国际2</span><br />
-                        <span id="qqLoginBtn"></span>
+  <div class="nqBody">
+        <div id="nqType" class="nqType">
+            <ul id="nqtWrap" class="nqtWrap">
+                <li><a href='/news/comp/'>公司动态</a></li>
+                <li><a href='/news/hor/'>行业资讯</a></li>
+                <li><a href='/news/webmaster/'>站长专栏</a></li>
+                <li><a href='/news/chuangyezhilu/'>创业之路</a></li>
+                <li><a href='/news/mobile/'>移动互联</a></li>
+            </ul>
+            <span class="nqpNameCn">移动互联</span> <span class="nqpNameEn">NEWS</span>
+        </div>
+        <ul id="nqlWrap" class="nqlWrap">
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">iPad Pro为谁而生？</a>
+                <div class="nqlSum">
+                    如果你想完成某项工作，你需要一台笔记本。如果你只想看电影和玩游戏，那么一台平板电脑就够了。这样的规则已经持续了一段时间，不过似乎到了要变革的时候。...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">高通：中国将一批实现5G</a>
+                <div class="nqlSum">
+                    我服务每家公司都在比较有挑战的时候。翻开自己过往的从业经历，孟檏也许觉得自己天生就是一个救火队员。2002年孟檏加入高通时，他的任务是推...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">欢呼！老iPhone也能有3D Touch</a>
+                <div class="nqlSum">
+                    3D Touch堪称一项革命性的触摸技术，但是因为软硬件上的限制，它是iPhone 6S、iOS 9的专利等等，真的这样吗？...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">逼死处女座 中高端手机查看“体质”指南</a>
+                <div class="nqlSum">
+                    随着手机处理器和性能的飞速发展，高性能的处理器也成了不少玩家所追求的一个重要元素。而不少玩家都会提到手机处理器的“体质”问题，那体质究竟代表什么，我们又如何查看...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">玩性价比：搭载i7处理器的神舟K660E仅需5199元</a>
+                <div class="nqlSum">
+                    性价比一词相信很多人都并不陌生，最近几年智能手机行业一直在玩价格战，各大厂商在性价比方面厮杀的非常厉害，而性价比这一特性在笔记本电脑行业同样适用，用户在购买电脑...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">只想做“不完美”的高端手机 魅族是要干啥？</a>
+                <div class="nqlSum">
+                    在过去短短的一年时间内，魅族今年手机产品的销量较去年增长400%。这产品更新速度和销量增长是魅族品牌过去从来没有出现过的，甚至在同期的国内手机市场唯一一家能做到的。...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">老iPhone也能有3D Touch?</a>
+                <div class="nqlSum">
+                    3DTouch堪称一项革命性的触摸技术，但是因为软硬件上的限制，它是iPhone6S、iOS9的专利……等等，真的这样吗？Cydia开发者EliasLimneos刚刚公布了一段视频，展示了在iOS8上...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">“玫瑰金色”是什么颜色 它是怎么来的？</a>
+                <div class="nqlSum">
+                    土豪金已经不再是热门话题了，现在大家开口闭口聊的都是玫瑰金，一大波妹子们已经做好了点击购买玫瑰金iPhone6s的准备，当然可能也有很多人要买的是玫瑰金的AppleWatch。不...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">美银美林：iPhone 6s物料成本234美元</a>
+                <div class="nqlSum">
+                    美银美林周五发布报告称，苹果新款iPhone6s的物料成本约为234美元。报告显示，iPhone6s中成本最高的一部分是半导体器件，总成本为127美元。其中，用于支持移动通信网络的半...</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">好壮观！慢镜头下观察火柴头燃烧爆炸</a>
+                <div class="nqlSum">
+                    ......</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">牛奶和洗洁精的神奇化学反应，好神奇！</a>
+                <div class="nqlSum">
+                    ......</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+            <li class="nqli">
+                <div class="nqlDate">
+                    <span class="nqldDay">12</span><span class="nqldMy">2015-09</span></div>
+                <a class="nqlTitle" href="news_show.html" target="_blank">将磁铁丢入金属泥后，太不可思议了！</a>
+                <div class="nqlSum">
+                    ......</div>
+                <div class="nqlDetDate">
+                    2015-09-12</div>
+            </li>
+        </ul>
+        <img src="/templets/lanse/images/noInfo.png" style="display: none; margin: 0 auto;" />
+        <div id="pageInfo" class="pagination">
+            <div class="pgWrap">
+                <div class="plRounded">
+                </div>
+                <div class="prRounded">
+                </div>
+                <div class="pgQuery">
+                    <div id="pager1">
+                        <span class="curr" style="margin-right: 5px;">1</span> <a href='list_14_2.html' style="margin-right: 5px;">
+                            2</a> <a href='list_14_3.html' style="margin-right: 5px;">3</a> <a href='list_14_4.html'
+                                style="margin-right: 5px;">4</a> <a href='list_14_5.html' style="margin-right: 5px;">
+                                    5</a> <a href='list_14_6.html' style="margin-right: 5px;">6</a> <a href='list_14_7.html'
+                                        style="margin-right: 5px;">7</a> <a href='list_14_8.html' style="margin-right: 5px;">
+                                            8</a> <a href='list_14_9.html' style="margin-right: 5px;">9</a>
+                        <a href='list_14_10.html' style="margin-right: 5px;">10</a> <a href='list_14_11.html'
+                            style="margin-right: 5px;">11</a>
                     </div>
                 </div>
-                <ul id="catContr" class="catContr">
-                    <li class="catQrcode"><a class="curr catqTab catqTabwx" href="javascript:void(0);">微信</a>
-                        <div class="catqc">
-                            <img src="templets/images/201474111666.png" title="扫一扫" alt="扫一扫" /></div>
-                    </li>
-                    <li class="catQrcode"><a class="catqTab catqTabwb" href="javascript:void(0);">新浪微博</a>
-                        <div class="catqc">
-                            <img src="templets/images/201474111670.png" title="扫一扫" alt="扫一扫" /></div>
-                    </li>
-                </ul>
             </div>
-
-        </li>
-        <li class="catCon catWork">
-            <div id="UpdatePanel1">
-                <div class="catwHead">
-                    <span class="catwTitle">需求留言</span>（提交您的业务需求，我们的客户经理将及时与您取得联系）</div>
-                <span class='catwTip'></span>
-                <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
-                <input type="hidden" name="action" value="post" />
-                <input type="hidden" name="diyid" value="1" />
-                <input type="hidden" name="do" value="2" />
-                <div class="catwInput">
-                    <input name="comname" type="text" id="comname" value='公司名称：' />
-                    <input name="tel" type="text" id="tel" value='电话：' />
-                </div>
-                <div class="catwInput">
-                    <input name="name" type="text" id="name" value='姓名：' />
-                    <input name="email" type="text" id="email" value='ＱＱ：' />
-                </div>
-                <div class="catwText">
-                    <textarea name='mesinfo' id='mesinfo' value='内容：'></textarea></div>
-                <input type="text" class="entry ent-2 w-156 " style="width: 80px; text-transform: uppercase;"
-                    id="vdcode" name="vdcode" class="code" />
-                <img id="vdimgck" align="absmiddle" onclick="this.src=this.src+'?'" style="cursor: pointer;"
-                    alt="看不清？点击更换" src="templets/images/dimgck.php" />
-                看不清？ <a href="javascript:void(0)" onclick="changeAuthCode();">点击更换</a>
-                <script type="text/javascript">
-                    $ = jQuery;
-                    function changeAuthCode() {
-                        var num = new Date().getTime();
-                        var rand = Math.round(Math.random() * 10000);
-                        num = num + rand;
-                        $('#ver_code').css('visibility', 'visible');
-                        if ($("#vdimgck")[0]) {
-                            $("#vdimgck")[0].src = "../include/vdimgck.php?tag=" + num;
-                        }
-                        return false;
-                    }  
-                </script>
-                <div id="catwBtn" class="catwBtn">
-                    <span class="catwSubmit">
-                        <input type="hidden" name="dede_fields" value="comname,text;name,text;email,text;mesinfo,multitext;tel,text" />
-                        <input type="hidden" name="dede_fieldshash" value="47ab12d5b4395dee81fc86c971b4b051" />
-                        <input type="submit" name="submit" value="提 交" class='catwBtnHover' />
-                    </span>
-                </form>
-                <br />
-                <span class='catwTip'>( 我们将会在1个工作日内给您回复，资料会保密处理！)</span>
-            </div>
-        </li>
-        <li class="catCon">
-            <div id="UpdatePanel1">
-               <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=5370511811&verifier=29b59629&dpc=1"></iframe>
-            </div>
-        </li>
-    </ul>
-</div>
+        </div>
+    </div>
 
          
          <!-- Content End -->
@@ -371,6 +422,9 @@
         })
       </script>
       
+<script type="text/javascript" src="/tepstatic/js/scrollbar.min.js"></script>
+<script type="text/javascript" src="/tepstatic/js/common.js"></script>
+
   
   </body>
 </html>

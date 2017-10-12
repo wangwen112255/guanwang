@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 
@@ -15,10 +15,10 @@
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html" />
     <![endif]-->
-    <link href="__CSS__bootstrap.min.css" rel="stylesheet">
-    <link href="__CSS__font-awesome.min.css" rel="stylesheet">
-    <link href="__CSS__animate.min.css" rel="stylesheet">
-    <link href="__CSS__style.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/animate.min.css" rel="stylesheet">
+    <link href="/static/css/style.min.css" rel="stylesheet">
 </head>
 
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
@@ -31,10 +31,10 @@
                 <ul class="nav" id="side-menu">
                     <li class="nav-header">
                         <div class="dropdown profile-element">
-                            <span><img alt="image" class="img-circle" src="__IMG__logo.png" /></span>
+                            <span><img alt="image" class="img-circle" src="/static/img/logo.png" /></span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
-                               <span class="block m-t-xs"><strong class="font-bold">{$Think.session.username.username}</strong></span>
+                               <span class="block m-t-xs"><strong class="font-bold"><?php echo ($_SESSION['username']['username']); ?></strong></span>
                                 <span class="text-muted text-xs block">超级管理员<b class="caret"></b></span>
                                 </span>
                             </a>
@@ -48,7 +48,7 @@
                                 <li><a class="J_menuItem" href="mailbox.html">信箱</a>
                                 </li>
                                 <li class="divider"></li>
-                                <li><a href="{:U('Login/doLogout')}">安全退出</a>
+                                <li><a href="<?php echo U('Login/doLogout');?>">安全退出</a>
                                 </li>
                             </ul> -->
                         </div>
@@ -57,7 +57,7 @@
                     </li>
                   
                    <li>
-                       <a href="__ACTION__"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
+                       <a href="/admin.php/Index/index"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
                            主页
                        </span>
                        
@@ -67,9 +67,9 @@
                             服务管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="{:U('Service/create')}">增加服务</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Service/create');?>">增加服务</a>
                             </li>
-                            <li id="showdepart" ><a class="J_menuItem" href="{:U('Service/index')}">查看服务</a>
+                            <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Service/index');?>">查看服务</a>
                             </li>
                             </li>
                         </ul>
@@ -80,9 +80,9 @@
                             案例管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="{:U('Case/create')}">增加案例</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Case/create');?>">增加案例</a>
                             </li>
-                            <li><a class="J_menuItem" href="{:U('Case/index')}">查看案例</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Case/index');?>">查看案例</a>
                             </li>
                             </li>
                         </ul>
@@ -92,7 +92,7 @@
                             定制管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="{:U('Build/index')}">查看定制</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Build/index');?>">查看定制</a>
                             </li>
                             </li>
                         </ul>
@@ -102,9 +102,9 @@
                             新闻管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="{:U('News/index')}">查看新闻</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Recruit/index');?>">查看新闻</a>
                             </li>
-                            <li><a class="J_menuItem" href="{:U('News/index')}">增加新闻</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Recruit/index');?>">增加新闻</a>
                             </li>
                     </li>
                         </ul>
@@ -116,7 +116,7 @@
                         <ul class="nav nav-second-level">
                             <li><a class="J_menuItem" href="javascript:" onclick="alert('更新中')">修改密码</a>
                             </li>
-                          <li><a class="J_menuItem" href="{:U('Login/dologout')}">退出登录</a>
+                          <li><a class="J_menuItem" href="<?php echo U('Login/dologout');?>">退出登录</a>
                           </li>
                            
                         </ul>
@@ -140,7 +140,7 @@
                 </button>
                 <nav class="page-tabs J_menuTabs">
                     <div class="page-tabs-content">
-                        <a href="javascript:;" class="active J_menuTab" data-id="{:U('step')}">首页</a>
+                        <a href="javascript:;" class="active J_menuTab" data-id="<?php echo U('step');?>">首页</a>
                     </div>
                 </nav>
                 <button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
@@ -159,10 +159,10 @@
                         </li>
                     </ul>
                 </div>
-                <a href="{:U('Login/dologout')}" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
+                <a href="<?php echo U('Login/dologout');?>" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
             </div>
             <div class="row J_mainContent" id="content-main">
-                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="{:U('step')}" frameborder="0" data-id="index_v1.html" seamless></iframe>
+                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="<?php echo U('step');?>" frameborder="0" data-id="index_v1.html" seamless></iframe>
             </div>
             <div class="footer">
                 <div class="pull-right">&copy; 2014-2015 <a href="http://bs.equxue.cn target="_blank">zihan's blog</a>
@@ -173,18 +173,18 @@
        
     </div>
   <!-- 全局js -->
-  <script src="__JS__jquery.min.js"></script>
-  <script src="__JS__bootstrap.min.js"></script>
-  <script src="__JS__plugins/metisMenu/jquery.metisMenu.js"></script>
-  <script src="__JS__plugins/slimscroll/jquery.slimscroll.min.js"></script>
-  <script src="__JS__plugins/layer/layer.min.js"></script>
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+  <script src="/static/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+  <script src="/static/js/plugins/layer/layer.min.js"></script>
 
   <!-- 自定义js -->
-  <script src="__JS__hplus.min.js"></script>
-  <script type="text/javascript" src="__JS__/contabs.min.js"></script>
+  <script src="/static/js/hplus.min.js"></script>
+  <script type="text/javascript" src="/static/js//contabs.min.js"></script>
 
   <!-- 第三方插件 -->
-  <script src="__JS__plugins/pace/pace.min.js"></script>
+  <script src="/static/js/plugins/pace/pace.min.js"></script>
 </body>
 
 

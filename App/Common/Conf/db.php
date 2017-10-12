@@ -3,10 +3,10 @@
  		 'DB_TYPE'=>"mysql",
  		 'DB_USER'=>"root",
 
- 		 "db_pwd"=>"root",
+ 		 "db_pwd"=>"123456",
  		 "db_host"=>"localhost",
- 		 "db_name"=>"yixintong",
-       	 "db_prefix"=>"",
+ 		 "db_name"=>"xk",
+       	 "db_prefix"=>"xk_",
 
 
 

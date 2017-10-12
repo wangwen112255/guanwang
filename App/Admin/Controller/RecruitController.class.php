@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class StudentController extends BaseController {
+class NewsController extends BaseController {
        protected $dao;
        public function _initialize(){
            parent::_initialize();

@@ -134,8 +134,8 @@
                            </a>
                         </li>
                         <li>
-                           <a <?php if((CONTROLLER_NAME) == "Recruit"): ?>id='current'<?php endif; ?>  href="<?php echo U('Recruit/index');?>" class="sf-with-ul">
-                           诚聘英才 
+                           <a <?php if((CONTROLLER_NAME) == "Recruit"): ?>id='current'<?php endif; ?>  href="<?php echo U('News/index');?>" class="sf-with-ul">
+                           企业动态 
                            </a>
                         </li>
                          <li>
@@ -787,14 +787,7 @@
                            </li>
                         </ul>
                      </section>
-                     <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-four">
-                        <h3></h3>
-                        <ul id="flickrfeed" class="thumbs"></ul>
-                     </section>
-                     <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-four">
-                        <h3>1234565</h3>
-                        <ul id="flickrfeed" class="thumbs"></ul>
-                     </section>
+                  
                   </div>
                </div>
             </div>
