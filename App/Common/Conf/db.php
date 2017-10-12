@@ -5,8 +5,8 @@
 
  		 "db_pwd"=>"123456",
  		 "db_host"=>"localhost",
- 		 "db_name"=>"xk",
-       	 "db_prefix"=>"xk_",
+ 		 "db_name"=>"yixintong",
+       	 "db_prefix"=>"",
 
 
 

@@ -10,7 +10,7 @@ use Think\Model;
 		$data['data']=$codata;
 		$data['page']=$show;
 		return $data;
-	}
+		}
 
  }
 

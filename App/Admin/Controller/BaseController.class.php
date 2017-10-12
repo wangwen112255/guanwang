@@ -4,8 +4,10 @@ use Think\Controller;
 use think\Request;
 class BaseController extends Controller {
     public function _initialize(){
-        //getUser();
+        // getUser();
+
     }
+    
 
     
 }

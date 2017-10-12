@@ -56,21 +56,29 @@
                         </div>
                     </li>
                   
-                   <li>
-                       <a href="/admin.php/Index/index"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
+                   <!-- <li>
+                       <a href="/admins.php/Index/index"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
                            主页
                        </span>
                        
-                   </li>
+                   </li> -->
+                    <li>
+                        <a href="mailbox.html"><i class="fa fa-home"></i> <span  id='depart' class="nav-label">
+                            系统配置
+                        </span>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="<?php echo U('Service/create');?>">增加服务</a></li>
+                            <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Service/index');?>">查看服务</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="mailbox.html"><i class="fa fa-map"></i> <span  id='depart' class="nav-label">
                             服务管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Service/create');?>">增加服务</a>
-                            </li>
+                            <li><a class="J_menuItem" href="<?php echo U('Service/create');?>">增加服务</a></li>
                             <li id="showdepart" ><a class="J_menuItem" href="<?php echo U('Service/index');?>">查看服务</a>
-                            </li>
                             </li>
                         </ul>
                     </li>
@@ -80,11 +88,8 @@
                             案例管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Case/create');?>">增加案例</a>
-                            </li>
-                            <li><a class="J_menuItem" href="<?php echo U('Case/index');?>">查看案例</a>
-                            </li>
-                            </li>
+                            <li><a class="J_menuItem" href="<?php echo U('Case/create');?>">增加案例</a></li>
+                            <li><a class="J_menuItem" href="<?php echo U('Case/index');?>">查看案例</a></li>
                         </ul>
                     </li>
                     <li>
@@ -102,9 +107,9 @@
                             新闻管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Recruit/index');?>">查看新闻</a>
+                            <li><a class="J_menuItem" href="<?php echo U('News/create');?>">查看新闻</a>
                             </li>
-                            <li><a class="J_menuItem" href="<?php echo U('Recruit/index');?>">增加新闻</a>
+                            <li><a class="J_menuItem" href="<?php echo U('News/index');?>">增加新闻</a>
                             </li>
                     </li>
                         </ul>
