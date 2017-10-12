@@ -102,9 +102,9 @@
                             新闻管理
                         </span>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Recruit/index');?>">查看新闻</a>
+                            <li><a class="J_menuItem" href="<?php echo U('News/index');?>">查看新闻</a>
                             </li>
-                            <li><a class="J_menuItem" href="<?php echo U('Recruit/index');?>">增加新闻</a>
+                            <li><a class="J_menuItem" href="<?php echo U('News/index');?>">增加新闻</a>
                             </li>
                     </li>
                         </ul>
